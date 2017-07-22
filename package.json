@@ -11,10 +11,10 @@
     "Patrick Mooney <patrick.f.mooney@gmail.com>",
     "Matt Simerson <matt@tnpi.net>"
   ],
-  "name": "ldapjs",
+  "name": "@invisr/ldapjs",
   "homepage": "http://ldapjs.org",
   "description": "LDAP client and server APIs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -49,7 +49,7 @@
     "tape": "^4.6.2"
   },
   "scripts": {
-        "report": "./node_modules/.bin/istanbul report html && open ./coverage/lcov-report/index.html",
-        "test": "./node_modules/.bin/istanbul cover --print none test/test.js | ./node_modules/.bin/faucet"
+    "report": "./node_modules/.bin/istanbul report html && open ./coverage/lcov-report/index.html",
+    "test": "./node_modules/.bin/istanbul cover --print none test/test.js | ./node_modules/.bin/faucet"
   }
 }
